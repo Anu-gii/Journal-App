@@ -2,7 +2,7 @@
 const SUPABASE_URL = 'https://vkdaoktigzyhtdxvidqn.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrZGFva3RpZ3p5aHRkeHZpZHFuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0Njc2MzEsImV4cCI6MjA2MjA0MzYzMX0.dq9mqg6nbPEl6pxZ40EnbBq4tzZ067CA7MCROOJ-1Ew';
 const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/dcpq6y4zd/image/upload';
-const CLOUDINARY_PRESET = 'journal_photos';
+const CLOUDINARY_PRESET = 'Journal photos';
 
 async function addJournal() {
     const text = document.getElementById('journal-text').value;
