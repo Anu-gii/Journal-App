@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journal App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>My Journal App</h1>
+    <div>
+        <h2>Add Journal</h2>
+        <textarea id="journal-text" placeholder="Write your thoughts..." rows="5"></textarea>
+        <button onclick="addJournal()">Save Journal</button>
+    </div>
+    <div>
+        <h2>Upload Photo</h2>
+        <input type="file" id="photo-upload" accept="image/*">
+        <textarea id="photo-take" placeholder="Your take on this photo..." rows="3"></textarea>
+        <button onclick="uploadPhoto()">Upload Photo</button>
+    </div>
+    <div>
+        <h2>All Journals & Photos</h2>
+        <ul id="journal-list"></ul>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
